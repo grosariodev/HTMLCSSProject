@@ -131,7 +131,11 @@ header a:hover {
 }
 
 #team .carta {
-
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
 }
 
 .carta:first-child {
@@ -159,4 +163,25 @@ header a:hover {
         rgba(0,0,0,0.5)
     )
     ,url(img/schedule1.jpg);
+}
+
+#caracteristicas .container {
+    text-align: center;
+    padding: 250px 12px;
+}
+
+#caracteristicas li {
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#aplicaya {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 80vh;
 }
